@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #9b59b6;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #9b59b6;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #9b59b6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
